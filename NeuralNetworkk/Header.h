@@ -1,4 +1,4 @@
-#pragma once
+
 #include <string>
 #include <fstream>
 #include <math.h>
@@ -17,10 +17,10 @@ struct Layer {
     vector<long double>biases;
     vector<vector<long double>>weights;
 };
-vector<vector<long double> >arrayOfImages;
-vector<long double>arrayOfLabels;
-vector<int> sizes = _SIZES_OF_LAYERS;
-vector<Layer> layers;
+static vector<vector<long double> >arrayOfImages;
+static vector<long double>arrayOfLabels;
+static vector<int> sizes = _SIZES_OF_LAYERS;
+static vector<Layer> layers;
 
 
  int fromBigToLittleEndian(int i);

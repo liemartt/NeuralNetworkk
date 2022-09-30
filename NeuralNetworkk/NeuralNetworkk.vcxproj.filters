@@ -32,5 +32,11 @@
     <ClInclude Include="Header.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="ReadData.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

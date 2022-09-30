@@ -1,4 +1,5 @@
-    #include "Header.h"
+
+#include "Header.h"
     long double modRelu(long double x) {
         if (x < 0) return 0.01 * x;
         if (x >= 0 and x <= 1) return x;
